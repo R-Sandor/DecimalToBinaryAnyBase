@@ -1,5 +1,5 @@
 #Machine Assignment 1
-> This program converts decimal numbers from 0 up to 1 (Not including 1).
+> This program converts decimal numbers from 0 up to 1 (Not including 1) of any base. (e.g. ./gradlew run --args "3 .3333", would output .1).
 
 ## Setup 
 -Untar package.
