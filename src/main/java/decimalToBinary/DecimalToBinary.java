@@ -19,7 +19,7 @@ public class DecimalToBinary {
 	
 	private int base = 0;
 	//.0001 was the original threshold
-	final double THRESHOLD = .0001;
+	final double THRESHOLD = .001;
 	
 	
 	public int getBase() {
@@ -114,7 +114,7 @@ public class DecimalToBinary {
 				{
 					break;
 				}
-				System.out.println("0) ci: " + ci);
+
 				// Check if this is a perfect 1/ base
 				double mathFormulaForBase = (1.0/(this.getBase()));
 				double result;
